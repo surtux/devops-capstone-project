@@ -1,5 +1,5 @@
 ---
-name: Custom issue template
+name: Issue template
 about: for devops project
 title: ''
 labels: ''
