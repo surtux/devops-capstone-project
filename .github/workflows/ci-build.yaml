@@ -2,7 +2,7 @@ name: ci-build
 on:
   push:
     branches:
-      - add-ci-build
+      - main
   pull_request:
     branches:
-      - add-ci-build
+      - main
