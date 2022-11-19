@@ -1,0 +1,8 @@
+name: ci-build
+on:
+  push:
+    branches:
+      - add-ci-build
+  pull_request:
+    branches:
+      - add-ci-build
