@@ -11,7 +11,7 @@ cluster: ## Create a Kubernetes cluster
 	k3d cluster create --registry-create cluster-registry:0.0.0.0:32000 --port '8080:80@loadbalancer'
 
 .PHONY: tekton
-tekton: ## Install Tekton into cluster
+tekton: ## Install Tekton into cluster yes
 	$(info Installing Tekton in the Cluster...)
 	kubectl apply --filename https://storage.googleapis.com/tekton-releases/pipeline/latest/release.yaml
 	kubectl apply --filename https://storage.googleapis.com/tekton-releases/triggers/latest/release.yaml
